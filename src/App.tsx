@@ -1,11 +1,8 @@
 import React from 'react';
+import { CommingSoon } from './components';
 
 function App() {
-  return (
-    <div className="md:container md:mx-auto 	">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
-  );
+  return <CommingSoon />;
 }
 
 export default App;

@@ -19,6 +19,14 @@ module.exports = {
     sourceType: 'module',
     project: './tsconfig.json',
   },
+  'react/function-component-definition': [
+    2,
+    {
+      namedComponents: 'arrow-function',
+      unnamedComponents: 'arrow-function',
+    },
+  ],
+
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {},
 };
