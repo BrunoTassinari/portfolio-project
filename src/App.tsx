@@ -1,7 +1,12 @@
-import { CommingSoon } from './components';
+import { CommingSoon, Header } from './components';
+import './input.css';
 
 function App() {
-  return <CommingSoon />;
+  return (
+    <div className="h-full bg-primary dark:dark-mode">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
